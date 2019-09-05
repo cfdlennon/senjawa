@@ -56,13 +56,15 @@ body {
 ## header-bar
 ------------------------------------------------------------*/
 .site-header .header-bar {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: -23px;
     left: 0;
     z-index: 99;
     width: 100%;
     padding: 40px 0;
 }
+
+
 
 .header-bar .site-branding {
     margin-bottom: 0;
@@ -78,9 +80,10 @@ body {
 /*------------------------------------------------------------
 ## navbar scrolled
 ------------------------------------------------------------*/
+
 body {
       margin: 1;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: normal;
     color: hsl(0, 0%, 90%);
@@ -91,9 +94,11 @@ body {
       position: fixed;
       top: 0;
       width: 100%;
+      height: 75px;
       display: block;
       transition: top 1.2s;
       z-index: 99;
+      opacity: 0.9;
 }
 
 #navbar a {
