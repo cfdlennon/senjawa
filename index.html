@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Senyawa+ 2019</title>
 
@@ -753,22 +754,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/custom.js'></script>
-    <script type="text/javascript">
-
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-
-      var currentScrollpos = window.pageYOffset;
-      if(prevScrollpos > currentScrollpos) {
-            document.getElementById("navbar").style.top = "-100px";
-      } else {
-            document.getElementById("navbar").style.top = "0";
-      }
-
-      prevScrollpos = currentScrollpos;
-
-      }
-
-    </script>
+    <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "0";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 </body>
 </html>
