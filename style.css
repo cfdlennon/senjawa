@@ -91,6 +91,7 @@ body {
 
 #navbar {
   background-color: #bf0fb9;
+  opacity: 0.9;
   position: fixed;
   top: 0;
   margin: 0;
