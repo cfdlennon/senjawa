@@ -92,7 +92,7 @@ body {
 #navbar {
   background-color: #bf0fb9;
   position: fixed;
-  top: 23px;
+  top: 0;
   width: 100%;
   display: block;
   transition: top 0.3s;
