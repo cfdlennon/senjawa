@@ -269,6 +269,7 @@ p {
         height: auto;
         padding-right: 1px;
         background: transparent;
+        z-index: 98;
     }
 
     .site-navigation ul {
@@ -284,6 +285,7 @@ p {
         padding: 0;
         overflow: auto;
         background: transparent;
+        z-index: 98;
     }
 
     .site-navigation ul li {
