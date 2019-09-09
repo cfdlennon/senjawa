@@ -309,7 +309,8 @@ p {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 200px 0;
-    background: url("images/cover.jpg") center center cover no-repeat fixed;
+    background: url("images/cover.jpg") center center no-repeat fixed;
+    background-size: cover;
 }
 
 .hero-content .entry-header {
