@@ -1299,7 +1299,7 @@ p {
 # tickets-page
 ------------------------------------------------------------*/
 .tickets-page {
-    background: url("images/middle-cover.jpg") no-repeat;
+    background: url("images/cover.jpg") center center fixed no-repeat;
     width: 100%;
     height: 100%;
 }
