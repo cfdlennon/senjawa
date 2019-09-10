@@ -1308,7 +1308,7 @@ p {
 # Page Header
 ------------------------------------------------------------*/
 .tickets-page .page-header {
-    background: url("images/tickets-page-header-background.jpg") no-repeat;
+    background: url("images/tickets-page-header-background.jpg") center center fixed no-repeat;
 }
 
 .tickets-page .tabs {
@@ -1788,7 +1788,7 @@ p {
 }
 
 .elements-page .page-header {
-    background: url("images/cover.jpg") no-repeat;
+    background: url("images/cover.jpg") center center fixed no-repeat;
 }
 
 .elements-page .elements-wrap {
