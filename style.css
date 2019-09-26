@@ -592,7 +592,7 @@ p {
 }
 
 .the-complete-lineup-artists .artist-single:nth-of-type(even) {
-    margin-top: 120px;
+    margin-top: 0px;
 }
 
 .the-complete-lineup-artists .artist-single figure {
